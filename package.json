@@ -3,5 +3,23 @@
   "version": "1.0.0",
   "description": "API de cadastros de horários de missas em São Luís (MA)",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "module-alias": "^2.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@app": "./src/app.js",
+    "@config": "./src/config",
+    "@controllers": "./src/controllers",
+    "@routes": "./src/routes.js"
+  },
+  "scripts": {
+    "dev": "nodemon server.js"
+  }
 }
