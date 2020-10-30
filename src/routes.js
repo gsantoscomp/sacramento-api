@@ -1,6 +1,6 @@
 const router = require('express').Router();
 
-const UserController = require('@controllers/UserController.js');
+const UserController = require('@Controllers/UserController.js');
 
 
 router.get('/', UserController.index);
