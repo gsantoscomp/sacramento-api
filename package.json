@@ -1,0 +1,7 @@
+{
+  "name": "sacramento",
+  "version": "1.0.0",
+  "description": "API de cadastros de horários de missas em São Luís (MA)",
+  "main": "index.js",
+  "license": "MIT"
+}
