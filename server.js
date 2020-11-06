@@ -1,3 +1,5 @@
 require('dotenv').config();
 require('module-alias/register');
-require('@Services/bootstrap.js')();
+const boot = require('@services/bootstrap.js');
+
+boot();

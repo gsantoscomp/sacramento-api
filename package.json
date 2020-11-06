@@ -15,12 +15,12 @@
   "_moduleAliases": {
     "@app": "./src/app.js",
     "@routes": "./src/routes.js",
-    "@Root": ".",
-    "@Config": "./src/config",
-    "@Controllers": "./src/controllers",
-    "@Services": "./src/services"
+    "@root": ".",
+    "@config": "./src/config",
+    "@controllers": "./src/controllers",
+    "@services": "./src/services"
   },
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon -q server"
   }
 }
