@@ -1,4 +1,4 @@
-const config = require('@config');
+const config = require('@config/config.js');
 const app = require('@app');
 
 module.exports = (err) => {
